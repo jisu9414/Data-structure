@@ -80,7 +80,6 @@
         "        ptr = self.head\n",
         "\n",
         "        while ptr is not None:\n",
-        "            self.current = ptr\n",
         "            all_data.append(ptr.data)\n",
         "            ptr = ptr.next\n",
         "\n",
